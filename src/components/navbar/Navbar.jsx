@@ -3,6 +3,8 @@ import { Link as ScrollLink } from 'react-scroll'
 import { NavLink } from 'react-router-dom'
 import {BiMenuAltLeft} from 'react-icons/bi'
 import {RxCross2} from 'react-icons/rx'
+import {TbFidgetSpinner} from 'react-icons/tb'
+
 
 function Navbar() {
     const [smallDev, setsmallDev] = useState(false)
@@ -18,8 +20,8 @@ function Navbar() {
     return (
         <div className=' p-2  bg-[#34344b] fixed top-0 right-0 left-0 z-10'>
             <nav className='container mx-auto  flex justify-between items-center'>
-                <header className='py-[17px] bg-[#4c4587] text-[#eae9f8] w-[60px] h-[60px] text-center rounded-full'>
-                    <h1 className='font-[700]'>A.O</h1>
+                <header className='p-[5px] bg-[#edeef0] text-center text-[#6C63FF] w-[60px] h-[60px] rounded-full'>
+                    <TbFidgetSpinner className='rotate-img text-[50px] stroke-3 stroke-[#34344b]'/>
                 </header>
                 <ul className={` ${smallDev? 'block' : 'hidden'} bg-black 
                 right-0 left-0 text-center leading-10 md:py-2 

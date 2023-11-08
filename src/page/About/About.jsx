@@ -77,7 +77,7 @@ function About() {
                         </div>
                         <div className='flex gap-5 mt-14 pl-[45px]'>
                            
-                            <a href="https://drive.google.com/file/d/1HvL9PY_OEsac8dDFel8XwZJ7GjzbGQXb/view?usp=drive_link" className='bg-[#6C63FF] text-white py-1 px-5 '>
+                            <a href="https://drive.google.com/file/d/1HvL9PY_OEsac8dDFel8XwZJ7GjzbGQXb/view?usp=drive_link" className='border-2 border-[#6C63FF] py-2 px-5 '>
                                 Résumé
                             </a>
                         </div>

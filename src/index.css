@@ -26,6 +26,18 @@ nav a::before{
 nav a:hover::before{
   width: 100%;
 }
+.rotate-img{
+  animation: rotateimg 10s infinite linear;
+}
+
+@keyframes rotateimg {
+ from {
+  transform: rotate(0deg);
+ }
+ to {
+  transform: rotate(360deg);
+ }
+} 
 
 .move-div {
   animation: tofro 6s infinite ;
