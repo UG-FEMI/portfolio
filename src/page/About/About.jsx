@@ -10,7 +10,9 @@ import Skill7 from '../../assests/github.svg'
 import Skill8 from '../../assests/figma.svg'
 
 
+
 function About() {
+   
     const skills = [
         {
             image: Skill1,
@@ -48,34 +50,35 @@ function About() {
 
 
     return (
-        <div id='About' className=' mt-[70px]'>
-            <div className='container mx-auto md:flex gap-10 justify-between flex-row-reverse'>
-                
+        <div id='About' className=' mt-[70px] '>
+            <div className='container mx-auto md:flex gap-10 justify-between flex-row-reverse px-[10px] md:px-0'>
+
                 <div className='move-div w-full md:w-[50%] px-[1px] py-[2px] bg-[#6C63FF]'>
-                    <div className='stand-div py-[10px] px-[45px] w-[97%] h-full mx-auto bg-white'>
-                        <h1 className='font-[600] text-[30px] text-center py-5 underline'>ABOUT ME</h1>
-                        <h3 className='font-[400] text-[20px]'>
-                            I’m MICHAEL a creative Front-End React
-                            developer based in Lagos, Nigeria.
-                            I am passionate about building
-                            and implementing user-friendly
-                            software. As a matter of fact,
-                            I constantly work on improving
-                            myself seeking to achieve
-                            the best version of myself.
-                            I am also a self-taught developer with
-                            over a year experience. During that experience learnt
-                            alot that
-                            have played some significant role in my
-                            personal life and also in my soft
-                            skills. 
-                                   </h3>
-                        <div className='flex gap-3 mt-6'>
-                            <a href="" className='border-2 border-[#6C63FF] py-1 px-5 '>
-                                Explore projects
-                            </a>
-                            <a href="" className='bg-[#6C63FF] text-white py-1 px-5 '>
-                                Resume
+                    <div className='stand-div w-[97%] py-[10px] h-full mx-auto bg-white'>
+                        <div className='px-[45px] '>
+                            <h1 className='font-[600] text-[30px] text-center py-5 underline'>ABOUT ME</h1>
+                            <h3 className='font-[400] text-[20px]'>
+                                I’m MICHAEL a creative Front-End React
+                                developer based in Lagos, Nigeria.
+                                I am passionate about building
+                                and implementing user-friendly
+                                software. As a matter of fact,
+                                I constantly work on improving
+                                myself seeking to achieve
+                                the best version of myself.
+                                I am also a self-taught developer with
+                                over a year experience. During that experience learnt
+                                alot that
+                                have played some significant role in my
+                                personal life and also in my soft
+                                skills.
+                            </h3>
+
+                        </div>
+                        <div className='flex gap-5 mt-14 pl-[45px]'>
+                           
+                            <a href="https://drive.google.com/file/d/1HvL9PY_OEsac8dDFel8XwZJ7GjzbGQXb/view?usp=drive_link" className='bg-[#6C63FF] text-white py-1 px-5 '>
+                                Résumé
                             </a>
                         </div>
                     </div>
@@ -83,12 +86,12 @@ function About() {
                 <div className='w-full md:w-[50%] py-[30px]'>
                     <img className='w-full ' src={Image3} alt="" />
                 </div>
-               
+
             </div>
 
             <hr className='bg-[#6C63FF] h-[2px] my-16' />
 
-            <div className=' container mx-auto my-12'>
+            <div className=' container mx-auto my-12 px-[10px] md:px-0'>
                 <div>
                     <h2 className='font-[600] text-[40px] py-3 text-center'>Skills</h2>
                 </div>
@@ -109,7 +112,7 @@ function About() {
                     </div>
                 </div>
             </div>
-            <hr className='bg-[#6C63FF] h-[2px] mt-20'/>
+            <hr className='bg-[#6C63FF] h-[2px] mt-20' />
         </div>
     )
 }

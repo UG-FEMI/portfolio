@@ -11,12 +11,15 @@ function Project() {
     {
       title: 'GreyMatter',
       imageUrl: Projectimage2,
-      text: 'my heailtify provides an health plan for patient in other to be able to use the '
+      text: 'my heailtify provides an health plan for patient in other to be able to use the ',
+     
     },
     {
       title: 'MyHealthify',
       imageUrl: Projectimage3,
-      text: 'my heailtify provides an health plan for patient in other to be able to use the '
+      text: 'my heailtify provides an health plan for patient in other to be able to use the ',
+      url: 'https://my-healthify.vercel.app',
+      git: 'https://github.com/UG-FEMI/myHealthify'
     },
     {
       title: 'Portfolio',
@@ -41,18 +44,18 @@ function Project() {
               <div className=''>
                 <h3 className='text-center font-[500] text-[20px] pb-3'>{projects.title}</h3>
                 <div className='h-'>
-                  <img className='flex-1 h-[230px] w-full rounded-lg' src={projects.imageUrl} alt="" />
+                  <img className='flex-1 h-[100%] md:h-[230px] w-full rounded-lg' src={projects.imageUrl} alt="" />
                 </div>
                 <p className='py-5'>{projects.text}</p>
               </div>
               <div className='flex justify-between text-'>
-                <a href="">
+                <a href={projects.git}>
                   <div className='flex gap-1 rounded-[5px] items-center border-2 p-2 border-[#6C63FF] hover:bg-[#6C63FF] hover:text-[#f3f3f3] duration-700 ease-in-out'>
                     <BsGithub />
                     <h2>View</h2>
                   </div>
                 </a>
-                <a href="">
+                <a href={projects.url}>
                   <div className='flex gap-1 rounded-[5px] items-center border-2 p-2 border-[#6C63FF] hover:bg-[#6C63FF] hover:text-[#f3f3f3] duration-700 ease-in-out'>
                     <BsLink45Deg/>
                     U.R.L

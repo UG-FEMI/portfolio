@@ -6,13 +6,18 @@ import {RxCross2} from 'react-icons/rx'
 
 function Navbar() {
     const [smallDev, setsmallDev] = useState(false)
+    
 
     const menuClick = () => {
         setsmallDev(!smallDev)
     }
+
+    // const scrollToBtnClick = () => {
+    //     scrollRef.current.scrollIntoView({behavior:'smooth'})
+    // }
     return (
         <div className=' p-2  bg-[#34344b] fixed top-0 right-0 left-0 z-10'>
-            <nav className='container mx-auto flex justify-between items-center'>
+            <nav className='container mx-auto  flex justify-between items-center'>
                 <header className='py-[17px] bg-[#4c4587] text-[#eae9f8] w-[60px] h-[60px] text-center rounded-full'>
                     <h1 className='font-[700]'>A.O</h1>
                 </header>
