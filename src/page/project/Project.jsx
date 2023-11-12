@@ -4,32 +4,38 @@ import Projectimage1 from '../../assests/amam.png'
 import Projectimage2 from '../../assests/greymatter.png'
 import Projectimage3 from '../../assests/myhealthify.png'
 import Projectimage4 from '../../assests/portfolio.png'
+import 'animate.css'
 
 function Project() {
 
   const projects = [
-    {
-      title: 'GreyMatter',
-      imageUrl: Projectimage2,
-      text: 'my heailtify provides an health plan for patient in other to be able to use the ',
-     
-    },
+    
     {
       title: 'MyHealthify',
       imageUrl: Projectimage3,
-      text: 'my heailtify provides an health plan for patient in other to be able to use the ',
+      text: 'MyHealthify provides an health plan for patients in other to use hospital facilities. ',
       url: 'https://my-healthify.vercel.app',
       git: 'https://github.com/UG-FEMI/myHealthify'
     },
     {
+      title: 'GreyMatter',
+      imageUrl: Projectimage2,
+      text: 'GreyMatter is a dynamic ecosystem that connects aspiring tech professionals with industry leaders.',
+     
+    },
+    {
       title: 'Portfolio',
       imageUrl: Projectimage4,
-      text: 'my heailtify provides an health plan for patient in other to be able to use the '
+      text: 'My personal portfolio ',
+      url: 'https://femi-portfolio-beta.vercel.app/',
+      git: 'https://github.com/UG-FEMI/portfolio'
     },
     {
       title: 'AmamStore',
       imageUrl: Projectimage1,
-      text: 'my heailtify provides an health plan for patient in other to be able to use the '
+      text: 'AmamStore is an online e-commerce website that let user BUY & SELL different goods.',
+      url: 'https://github.com/UG-FEMI',
+      git: 'https://github.com/UG-FEMI'
     }
   ]
 
@@ -40,7 +46,7 @@ function Project() {
       {projects.map((projects, index) => {
         return (
           
-            <div key={index} className='mx-auto md:mx-0 border-2 border-[#4c4587] rounded-2xl py-3  px-5 w-[80%] md:w-[45%] mb-10 md:mb-0'>
+            <div key={index} className=' mx-auto md:mx-0 border-2 border-[#4c4587] rounded-2xl py-3  px-5 w-[80%] md:w-[45%] mb-10 md:mb-0'>
               <div className=''>
                 <h3 className='text-center font-[500] text-[20px] pb-3'>{projects.title}</h3>
                 <div className='h-'>

@@ -3,16 +3,17 @@ import About from '../About/About'
 import Image1 from '../../assests/image2.png'
 import { Link } from 'react-router-dom'
 import Project from '../project/Project'
+import 'animate.css'
 
 function Home() {
    
 
     return (
         <div>
-            <div className='bg-white pb-[5px] px-[10px] md:px-0'>
+            <div className='bg-white py-[5px] px-[10px] md:px-0'>
                 <div className='container mx-auto pt-[50px] md:flex'>
                     <div className='w-full md:w-[50%] mt-[80px]'>
-                        <span>Hi, i am Oluwafemi</span>
+                        <h2 className='font-[600] text-[#6C63FF] text-[20px] animate__animated animate__bounce'>Hi, <span className=' text-black text-[18px]'>i am Oluwafemi</span></h2>
                         <h4 className='text-[50px] w-full md:w-[80%] font-[700]'> I Build and Innovate Things That Live On Web. </h4>
                         <p className='text-[20px] w-full md:w-[80%] font-[400] py-7'>As a skilled Front-End (React) developer, I am dedicated to turning ideas into innovative web applications.</p>
                     </div>

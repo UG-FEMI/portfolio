@@ -27,6 +27,7 @@ nav a:hover::before{
   width: 100%;
 }
 .rotate-img{
+  cursor: pointer;
   animation: rotateimg 10s infinite linear;
 }
 
@@ -38,7 +39,9 @@ nav a:hover::before{
   transform: rotate(360deg);
  }
 } 
-
+.rotate-img:hover{
+  animation-play-state:paused ;
+}
 .move-div {
   animation: tofro 6s infinite ;
   

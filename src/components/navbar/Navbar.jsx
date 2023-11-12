@@ -7,23 +7,24 @@ import {TbFidgetSpinner} from 'react-icons/tb'
 
 
 function Navbar() {
-    const [smallDev, setsmallDev] = useState(false)
+    const [smallDev, setsmallDev] = useState(false);
+   
     
 
     const menuClick = () => {
         setsmallDev(!smallDev)
     }
 
-    // const scrollToBtnClick = () => {
-    //     scrollRef.current.scrollIntoView({behavior:'smooth'})
-    // }
+    const scrollToBtnClick = () => {
+        window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+    }
     return (
         <div className=' p-2  bg-[#34344b] fixed top-0 right-0 left-0 z-10'>
             <nav className='container mx-auto  flex justify-between items-center'>
-                <header className='p-[5px] bg-[#edeef0] text-center text-[#6C63FF] w-[60px] h-[60px] rounded-full'>
+                <header onClick={scrollToBtnClick} className='p-[5px] bg-[#edeef0] text-center text-[#6C63FF] w-[60px] h-[60px] rounded-full'>
                     <TbFidgetSpinner className='rotate-img text-[50px] stroke-3 stroke-[#34344b]'/>
                 </header>
-                <ul className={` ${smallDev? 'block' : 'hidden'} bg-black 
+                <ul className={` ${smallDev? 'block' : 'hidden'}  bg-black 
                 right-0 left-0 text-center leading-10 md:py-2 
                 md:flex md:items-center md:w-auto w-full text-[#b7b7c4] 
                 gap-12 absolute md:static md:bg-transparent top-[70px]` }>
@@ -44,7 +45,7 @@ function Navbar() {
                        
                     </li> */}
                 </ul>
-                <div className='text-[#b7b7c4] text-[35px] md:hidden' onClick={menuClick}>
+                <div className='transition-all duration-[1s] ease-in text-[#b7b7c4] text-[35px] md:hidden ' onClick={menuClick}>
                     {smallDev ? <RxCross2/> : <BiMenuAltLeft /> }
                 </div>
             </nav>

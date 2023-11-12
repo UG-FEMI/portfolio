@@ -58,7 +58,7 @@ function About() {
                         <div className='px-[45px] '>
                             <h1 className='font-[600] text-[30px] text-center py-5 underline'>ABOUT ME</h1>
                             <h3 className='font-[400] text-[20px]'>
-                                I’m MICHAEL a creative Front-End React
+                                I’m Oluwafemi a creative Front-End React
                                 developer based in Lagos, Nigeria.
                                 I am passionate about building
                                 and implementing user-friendly
