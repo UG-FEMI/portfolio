@@ -12,12 +12,12 @@ function Footer() {
                     <div className='container mx-auto pb-4 flex justify-between px-[10px] md:px-0'>
                         <div>
                             <h2 className='font-[500] text-[20px] my-3 text-white'>Contact Me:</h2>
-                            <div className='-[20px] block gap-5 text-white'>
+                            <div className='-[20px] block gap-5 text-white w-full'>
                                 <div className='flex items-center gap-2 border-2 border-white rounded-[20px] py-[5px] px-[15px] w-[250px] hover:bg-[#cfcbcb] duration-[1s] ease-in-out hover:text-[#34344b] hover:border-[#34344b]'>
                                     <MdOutlineMail className='text-[25px]' />
                                     <a href="mailto:ayodele.mickey89@gmail.com" className='text-[13px] font-[500]'>ayodele.mickey89@gmail.com</a>
                                 </div>
-                                <div className='flex items-center gap-2 border-2 border-white rounded-[20px] py-[5px] px-[16px] w-[170px] my-3 hover:bg-[#cfcbcb] duration-[1s] ease-in-out hover:text-[#34344b] hover:border-[#34344b]'>
+                                <div className='flex items-center gap-2 border-2 border-white rounded-[20px] py-[5px] px-[13px] w-[] my-3 hover:bg-[#cfcbcb] duration-[1s] ease-in-out hover:text-[#34344b] hover:border-[#34344b]'>
                                     <BsTelephone className='text-[20px]' />
                                     <a href="https://wa.me/2348154917045" className='text-[13px] font-[500]'>+234 8154917045</a>
                                 </div>
