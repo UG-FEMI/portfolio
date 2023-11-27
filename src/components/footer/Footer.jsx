@@ -17,7 +17,7 @@ function Footer() {
                                     <MdOutlineMail className='text-[25px]' />
                                     <a href="mailto:ayodele.mickey89@gmail.com" className='text-[13px] font-[500]'>ayodele.mickey89@gmail.com</a>
                                 </div>
-                                <div className='flex items-center gap-2 border-2 border-white rounded-[20px] py-[5px] px-[13px] w-[] my-3 hover:bg-[#cfcbcb] duration-[1s] ease-in-out hover:text-[#34344b] hover:border-[#34344b]'>
+                                <div className='flex justify-center items-center gap-2 border-2 border-white rounded-[20px] py-[5px] px-[13px] w-[] my-3 hover:bg-[#cfcbcb] duration-[1s] ease-in-out hover:text-[#34344b] hover:border-[#34344b]'>
                                     <BsTelephone className='text-[20px]' />
                                     <a href="https://wa.me/2348154917045" className='text-[13px] font-[500]'>+234 8154917045</a>
                                 </div>
